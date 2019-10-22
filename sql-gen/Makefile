@@ -4,6 +4,8 @@ venv_name = py${PYTHON_VERSION}-${PROJECT}
 venv = .venv/${venv_name}
 
 default: ${venv}
+	${venv}/bin/python setup_c.py build_ext --inplace
+	${venv}/bin/python setup_cpp.py build_ext --inplace
 	${venv}/bin/python test.py
 .PHONY: default
 

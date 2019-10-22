@@ -1,3 +1,7 @@
 .tmp/
 .venv/
 __pycache__/
+cython_with_c.c
+cython_with_c.cpython-37m-x86_64-linux-gnu.so
+cython_with_cpp.cpp
+cython_with_cpp.cpython-37m-x86_64-linux-gnu.so
